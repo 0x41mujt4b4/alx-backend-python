@@ -1,4 +1,6 @@
+#!/usr/bin/env python3
 from typing import List, Tuple, Union
+
 
 def zoom_array(lst: Tuple[int, ...], factor: int = 2) -> Tuple[int, ...]:
     zoomed_in: List[int] = [
